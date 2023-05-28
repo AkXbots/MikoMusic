@@ -17,7 +17,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("23377505", ""))
+API_ID = int(getenv("API_ID", "23377505"))
 API_HASH = getenv("7fed25e2e1858a5f3add05e30393e7f3")
 
 ## Get it from @Botfather in Telegram.
@@ -37,7 +37,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("-821491869", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "6058139652"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("𝐈ϲнικᴀ 𝐍ᴀᴋᴀɴᴏ")
