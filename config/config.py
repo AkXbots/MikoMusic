@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "6058139652"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("𝐈ϲнικᴀ 𝐍ᴀᴋᴀɴᴏ")
+MUSIC_BOT_NAME = getenv("ichika")
 
 # Your User ID.
 OWNER_ID = list(
